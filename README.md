@@ -13,7 +13,9 @@ If the answer is smaller in value to the random number, the program will tell th
 
 If the answer is larger in value to the random number, the program will tell the user that thier answer is too large and that the user should guess lower.
 
-If the answer equals the random number, the user is congradulated and is asked if they want to play again. 
+The game also uses a counter that goes up by 1 each time the loop is repeated to keep track of the number of attempts the user took to guess.
+
+If the answer equals the random number, the user is congradulated, is displayed how many guess it took to guess the correct number, and is asked if they want to play again. 
 
 A while loop is utilized to prompt the user if they want to keep playing. If the user responds "yes", the program picks a picks a new random number and prompts the user to guess again.
 
